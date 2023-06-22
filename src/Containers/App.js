@@ -4,6 +4,7 @@ import Scroll from '../Components/Scroll';
 import  { robots } from '../robots';
 import SearchBox from '../Components/SearchBox';
 import './App.css';
+import ErrorBoundry from '../Components/ErrorBoundry';
 
 class App extends Component {
     constructor() {
@@ -42,7 +43,9 @@ onSearchChange = (event) => {
         <h1>RoboFriends!</h1>
         <SearchBox searchChange={this.onSearchChange}/>
         <Scroll>
+            <ErrorBoundry>
         <CardList robots={filteredRobots}/>
+             </ErrorBoundry>
         </Scroll>
        </div>
     );
