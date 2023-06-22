@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Typo';
+    src: url(Typographica-Blp5.ttf) format('truetype');
+}
+
+
+
+h1 {font-family: 'Typo';
+    color: white;
+    letter-spacing: 30px;
+    border: 6px black;
+    weight: bold;
+}
+
