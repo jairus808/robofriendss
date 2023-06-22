@@ -1,3 +1,7 @@
+# ZTM Course: React-APP Code-along project.
+
+This repo was uploaded to display my progress in the ZTM Web Dev course as a project oriented on learning React.js, done with some personal deviations.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
